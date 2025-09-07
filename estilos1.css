@@ -1,0 +1,70 @@
+/* estilos1.css */
+body {
+    background-color: #ede7f6;
+    font-family: 'Segoe UI', sans-serif;
+    color: #311b92;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8e24aa;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.galeria {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure {
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px #7e57c2;
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #4a148c;
+}
+
+footer {
+    background-color: #6a1b9a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
